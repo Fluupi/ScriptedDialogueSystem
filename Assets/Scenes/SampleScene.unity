@@ -158,7 +158,7 @@ MonoBehaviour:
   onDialogueTrigger:
     m_PersistentCalls:
       m_Calls: []
-  textRoot: {fileID: 0}
+  textRoot: {fileID: 11400000, guid: f99c8bf410de6e643a04400b0ec1a847, type: 2}
 --- !u!4 &168542975
 Transform:
   m_ObjectHideFlags: 0
