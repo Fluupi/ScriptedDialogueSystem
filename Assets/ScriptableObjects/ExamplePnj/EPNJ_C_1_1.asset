@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b7a7eeaa94d3d6439d16b9966085318, type: 3}
+  m_Name: EPNJ_C_1_1
+  m_EditorClassIdentifier: 
+  baseText: Hahahahaha I fooled you ! This is a lv99 quest ! You're gonna die there
+    !
+  spriteShows: []
+  choices:
+  - text: Yeah whatever
+    associatedValue: 1
+    next: {fileID: 11400000, guid: e68d1c51a433d6a43a90968a95f00f7e, type: 2}
+  - text: Oh no ! How am I going to defeat him ?
+    associatedValue: 0
+    next: {fileID: 11400000}
+  - text: Welp, dead end, let's restart
+    associatedValue: -1
+    next: {fileID: 11400000, guid: f99c8bf410de6e643a04400b0ec1a847, type: 2}

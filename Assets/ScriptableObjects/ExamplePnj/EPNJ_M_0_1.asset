@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35703cdad0229c4a857175a34e99a55, type: 3}
+  m_Name: EPNJ_M_0_1
+  m_EditorClassIdentifier: 
+  baseText: Hello Adventurer !
+  spriteShows: []
+  additionalMonologueSteps:
+  - Will you accompany with me on this journey ?
+  - I will reward you with so much gold
+  - That you will never be able to spend it all
+  - And neither will your children !
+  - Also I promise this is an easy lv1 quest
+  next: {fileID: 11400000, guid: 7b47863bf1a22464cb5089ddf45c5e3a, type: 2}
