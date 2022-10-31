@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueManager : MonoBehaviour
+public abstract class DialogueManager : MonoBehaviour
 {
     [SerializeField] private TextTrigger[] textTriggers;
 
@@ -15,8 +15,5 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void Read(TextStep textRoot)
-    {
-        Debug.Log(textRoot.baseText);
-    }
+    public abstract void Read(TextStep textRoot);
 }

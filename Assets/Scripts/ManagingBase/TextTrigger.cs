@@ -15,8 +15,6 @@ public class TextTrigger : MonoBehaviour
     {
         if (triggerOnce && wasTriggered)
         {
-            Debug.LogWarning("oopsie");
-
             return;
         }
 
